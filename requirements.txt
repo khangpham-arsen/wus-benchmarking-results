@@ -5,3 +5,6 @@ seaborn
 reportlab
 kaleido
 numpy
+markdown2
+matplotlib
+reportlab
