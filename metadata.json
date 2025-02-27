@@ -1,0 +1,55 @@
+{
+  "total_questions": 39,
+  "language_distribution": {
+    "en": 15,
+    "jp": 24
+  },
+  "complexity_distribution": {
+    "basic": 12,
+    "intermediate": 15,
+    "advanced": 12
+  },
+  "scenario_types": {
+    "basic_query": "Direct database queries without context",
+    "chat_context": "Questions requiring previous conversation context",
+    "retry_cases": "Scenarios requiring retry after errors",
+    "force_data": "Cases requiring data verification",
+    "ai_search": "Complex pattern recognition scenarios"
+  },
+  "parameter_combinations": {
+    "chat_history": {
+      "description": "Tests with varying chat history depth and context",
+      "variations": [
+        "none",
+        "single_turn",
+        "multi_turn",
+        "with_error",
+        "with_context"
+      ]
+    },
+    "need_retry": {
+      "description": "Error recovery scenarios",
+      "variations": [
+        "timeout",
+        "schema_error",
+        "processing_error"
+      ]
+    },
+    "force_data": {
+      "description": "Data verification scenarios",
+      "variations": [
+        "unsupported_claim",
+        "assumption_validation",
+        "fact_checking"
+      ]
+    },
+    "ai_search": {
+      "description": "Pattern recognition scenarios",
+      "variations": [
+        "behavior_pattern",
+        "performance_pattern",
+        "risk_pattern"
+      ]
+    }
+  }
+}

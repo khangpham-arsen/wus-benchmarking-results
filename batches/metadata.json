@@ -1,0 +1,10 @@
+{
+  "total_batches": 3,
+  "batch_size": 19,
+  "total_test_cases": 56,
+  "batch_files": [
+    "batch_000.jsonl",
+    "batch_001.jsonl",
+    "batch_002.jsonl"
+  ]
+}
